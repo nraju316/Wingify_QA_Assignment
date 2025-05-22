@@ -11,7 +11,6 @@ import Tests.Initilization.DriverBase;
 import java.util.Set;
 import org.testng.Reporter;
 
-
 public class DreamsDairyTest extends DriverBase {
 
     DreamsDairyPage diaryPage;
