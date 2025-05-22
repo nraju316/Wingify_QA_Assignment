@@ -6,7 +6,7 @@ import org.testng.Reporter;
 import org.testng.annotations.*;
 import org.testng.asserts.SoftAssert;
 
-import Tests.Initilization.DriverBase;
+import Initilization.DriverBase;
 
 import java.time.Duration;
 import java.util.Set;

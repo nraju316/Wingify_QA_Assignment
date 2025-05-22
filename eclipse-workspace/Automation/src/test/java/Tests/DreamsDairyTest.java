@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import Tests.Initilization.DriverBase;
+import Initilization.DriverBase;
 
 import java.util.Set;
 import org.testng.Reporter;

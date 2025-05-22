@@ -1,4 +1,5 @@
 package WebPages;
+import Initilization.DriverBase;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -9,8 +10,8 @@ import java.net.URL;
 
 public class AI_BASED_VALIDATION {
 
-    private static final String API_KEY = "AIzaSyB6GOefTcQWux5zWLm413IAUHWb2XnjApA";
-    private static final String ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
+    String endpoint = DriverBase.ENDPOINT;
+    String apiKey = DriverBase.API_KEY;
 
     public static String classifyDreamName(String dreamName) {
         try {
@@ -29,7 +30,7 @@ public class AI_BASED_VALIDATION {
         JSONObject content = new JSONObject().put("parts", new JSONArray().put(part));
         requestBody.put("contents", new JSONArray().put(content));
 
-        URL url = new URL(ENDPOINT);
+        URL url = new URL(DriverBase.ENDPOINT);
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
         con.setRequestMethod("POST");
         con.setRequestProperty("Content-Type", "application/json");

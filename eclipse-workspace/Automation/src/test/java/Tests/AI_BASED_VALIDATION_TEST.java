@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.*;
 
-import Tests.Initilization.DriverBase;
+import Initilization.DriverBase;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package Tests.Initilization;
+package Initilization;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -14,6 +14,11 @@ import org.testng.annotations.*;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverBase {
+	
+//GEmeni API key
+   
+	public static final String API_KEY = "AIzaSyB6GOefTcQWux5zWLm413IAUHWb2XnjApA";
+    public static final String ENDPOINT = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + API_KEY;
 	
 	
 //Base URl
