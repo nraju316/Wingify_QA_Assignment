@@ -8,9 +8,9 @@ This project is a robust Selenium-based test automation framework built using **
 * [📦 Project Structure](#-project-structure)
 * [🧰 Technologies Used](#-technologies-used)
 * [⚙️ Setup & Installation](#️-setup--installation)
+* [🧪 How to Run the Framework](#-how-to-run-the-framework)
 * [📊 Test Reports](#-test-reports)
 * [🛠️ Customization](#️-customization)
-* [🧪 How to Run the Framework](#-how-to-run-the-framework)
 * [🧪 Test Report/Output Screenshot]
 * [📌 Best Practices Followed](#-best-practices-followed)
 * [👤 Author](#-author)
@@ -76,26 +76,6 @@ Required for:
         API Key via Gemini (Gemini Pro/Pro Vision)
 
 
-
-## 📊  Test Reports
-
-After test execution, reports are generated and managed as follows:
-
-- **Default Location:**  
-  TestNG automatically generates the test report (`emailable-report.html`) inside the `test-output/` directory of the project.
-
-- **Custom Feature:**  
-  After each test run, the report is also **automatically copied** to the user's **Downloads** folder with a unique timestamp, for example:  
-  `emailable-report_20250522_153045.html`
-
-This allows for easier access and archiving of past reports outside the project structure.
-
-
-## 🛠️  Customization
-
-* To change BaseUrl or the endpoint and API key update DriverBase file in initilization
-
-
 ##🧪  How to Run the Framework
 
 ##🔧  Step-by-Step Setup
@@ -130,6 +110,9 @@ Install TestNG Plugin (if not already installed)
         Need visual guidance? You can follow this YouTube tutorial or any other general youtube videos:
         [https://www.youtube.com/watch?v=J9VM_JyiJFo]
 
+        After installation Right click any test class run as using TestNg
+
+
 Set Your Gemini API Key (Optional )
 
         Visit Google AI Studio
@@ -153,6 +136,26 @@ Run the Tests
         ✅ Tests are detected using TestNG annotations (e.g., @Test) — no XML suite file is needed.
 
 > **Note:** WebDriverManager automatically downloads and manages the required browser drivers.
+
+
+## 📊  Test Reports
+
+After test execution, reports are generated and managed as follows:
+
+- **Default Location:**  
+  TestNG automatically generates the test report (`emailable-report.html`) inside the `test-output/` directory of the project.
+
+- **Custom Feature:**  
+  After each test run, the report is also **automatically copied** to the user's **Downloads** folder with a unique timestamp, for example:  
+  `emailable-report_20250522_153045.html`
+
+This allows for easier access and archiving of past reports outside the project structure.
+
+
+## 🛠️  Customization
+
+* To change BaseUrl or the endpoint and API key update DriverBase file in initilization
+
 
 ## Report/Output Screenshot
 
