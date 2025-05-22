@@ -159,8 +159,8 @@ This allows for easier access and archiving of past reports outside the project 
 
 ## Report/Output Screenshot
 
-![image](https://github.com/user-attachments/assets/5160bfbd-4a2e-44fc-ae66-e57d8ae9d364)
-![image](https://github.com/user-attachments/assets/fde3f83b-dea3-4c8e-96d3-b7224f03c83b)
+![Screenshot 2025-05-22 130451](https://github.com/user-attachments/assets/d3f8283e-7fba-4fdf-9968-af0c82f8d5b8)
+![Screenshot 2025-05-22 130253](https://github.com/user-attachments/assets/60183f46-91a1-42a5-a9f0-202b91646e92)
 
 ## 📌 Best Practices Followed
 
