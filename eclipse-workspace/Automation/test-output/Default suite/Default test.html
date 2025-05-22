@@ -1,0 +1,309 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 22 05:02:16 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>41 seconds (41741 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.DreamsTotalTest.verifyBadDreamsCount()'><b>verifyBadDreamsCount</b><br>Test class: Tests.DreamsTotalTest<br/>
+<a href="#Output-1620989914" onClick='toggleBox("Output-1620989914", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1620989914" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1620989914">
+🟥 Bad dreams count: 4<br/>
+✅ Verified Bad dreams count is 4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tests.DreamsTotalTest@7c9d8e2</td></tr>
+<tr>
+<td title='Tests.HomePageTest.verifyMyDreamsButtonOpensNewTabs()'><b>verifyMyDreamsButtonOpensNewTabs</b><br>Test class: Tests.HomePageTest<br/>
+<a href="#Output-448569108" onClick='toggleBox("Output-448569108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-448569108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-448569108">
+🖱️ Clicked on 'My Dreams' button<br/>
+🧭 Switched to tab with URL: https://arjitnigam.github.io/myDreams/dreams-total.html<br/>
+🧭 Switched to tab with URL: https://arjitnigam.github.io/myDreams/dreams-diary.html<br/>
+↩️ Switched back to original tab<br/>
+✅ dreams-diary.html opened: true<br/>
+✅ dreams-total.html opened: true<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Tests.HomePageTest@7bedc48a</td></tr>
+<tr>
+<td title='Tests.DreamsTotalTest.verifyRecurringDreamsAreCorrect()'><b>verifyRecurringDreamsAreCorrect</b><br>Test class: Tests.DreamsTotalTest<br/>
+<a href="#Output-2061552777" onClick='toggleBox("Output-2061552777", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2061552777" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2061552777">
+✅ Switched to dreams-diary.html<br/>
+📃 Dream name frequency map: {Winning lottery=1, Being late to exam=1, Monster chase=1, Flying over mountains=3, Time travel adventure=1, Lost in maze=2, Swimming with dolphins=1}<br/>
+🔁 Recurring dreams detected: [Flying over mountains, Lost in maze]<br/>
+✅ Verified recurring dreams: [Flying over mountains, Lost in maze]<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tests.DreamsTotalTest@7c9d8e2</td></tr>
+<tr>
+<td title='Tests.HomePageTest.verifyLoadingAnimationBehavior()'><b>verifyLoadingAnimationBehavior</b><br>Test class: Tests.HomePageTest<br/>
+<a href="#Output-145105559" onClick='toggleBox("Output-145105559", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-145105559" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-145105559">
+🔄 Loading animation initially visible: true<br/>
+⏱ Loading animation disappeared: true (Waited ~3239 ms)<br/>
+📄 Main content visible after loader: true<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Tests.HomePageTest@7bedc48a</td></tr>
+<tr>
+<td title='Tests.DreamsDairyTest.testNumberOfDreamEntries()'><b>testNumberOfDreamEntries</b><br>Test class: Tests.DreamsDairyTest<br/>
+<a href="#Output-1750490055" onClick='toggleBox("Output-1750490055", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1750490055" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1750490055">
+✅ Total dream entries found: 10<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tests.DreamsDairyTest@37ceb1df</td></tr>
+<tr>
+<td title='Tests.DreamsDairyTest.testAllColumnsAreFilled()'><b>testAllColumnsAreFilled</b><br>Test class: Tests.DreamsDairyTest<br/>
+<a href="#Output-1138779634" onClick='toggleBox("Output-1138779634", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1138779634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1138779634">
+✅ All rows have Name, Days Ago, and Type columns filled: true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tests.DreamsDairyTest@37ceb1df</td></tr>
+<tr>
+<td title='Tests.DreamsDairyTest.testDreamTypesAreValid()'><b>testDreamTypesAreValid</b><br>Test class: Tests.DreamsDairyTest<br/>
+<a href="#Output-1240730624" onClick='toggleBox("Output-1240730624", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1240730624" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1240730624">
+✅ All dream types are either 'Good' or 'Bad': true<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tests.DreamsDairyTest@37ceb1df</td></tr>
+<tr>
+<td title='Tests.DreamsTotalTest.verifyTotalDreamsCount()'><b>verifyTotalDreamsCount</b><br>Test class: Tests.DreamsTotalTest<br/>
+<a href="#Output-2135359921" onClick='toggleBox("Output-2135359921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2135359921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2135359921">
+📊 Total dreams count: 10<br/>
+✅ Verified Total dreams count is 10<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tests.DreamsTotalTest@7c9d8e2</td></tr>
+<tr>
+<td title='Tests.DreamsTotalTest.verifyRecurringDreamsCount()'><b>verifyRecurringDreamsCount</b><br>Test class: Tests.DreamsTotalTest<br/>
+<a href="#Output-1116462450" onClick='toggleBox("Output-1116462450", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1116462450" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1116462450">
+🔁 Recurring dreams count: 2<br/>
+✅ Verified Recurring dreams count is 2<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tests.DreamsTotalTest@7c9d8e2</td></tr>
+<tr>
+<td title='Tests.HomePageTest.verifyMainContentVisible()'><b>verifyMainContentVisible</b><br>Test class: Tests.HomePageTest<br/>
+<a href="#Output-124376339" onClick='toggleBox("Output-124376339", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124376339" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124376339">
+⌛ Waiting for 'My Dreams' button to be visible...<br/>
+📄 Main content visible after waiting: true<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>Tests.HomePageTest@7bedc48a</td></tr>
+<tr>
+<td title='Tests.AI_BASED_VALIDATION_TEST.classifyDreamNamesFromUI()'><b>classifyDreamNamesFromUI</b><br>Test class: Tests.AI_BASED_VALIDATION_TEST<br/>
+<a href="#Output-503879157" onClick='toggleBox("Output-503879157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-503879157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-503879157">
+📝 Row columns data:<br/>
+   Column 1: Flying over mountains<br/>
+   Column 2: 1 day ago<br/>
+   Column 3: Good<br/>
+🔍 Validating dream: Flying over mountains<br/>
+🎯 Actual dream type: Good<br/>
+🤖 AI classification for 'Flying over mountains' is: Good<br/>
+📝 Row columns data:<br/>
+   Column 1: Lost in maze<br/>
+   Column 2: 2 days ago<br/>
+   Column 3: Bad<br/>
+🔍 Validating dream: Lost in maze<br/>
+🎯 Actual dream type: Bad<br/>
+🤖 AI classification for 'Lost in maze' is: Bad<br/>
+📝 Row columns data:<br/>
+   Column 1: Flying over mountains<br/>
+   Column 2: 3 days ago<br/>
+   Column 3: Good<br/>
+🔍 Validating dream: Flying over mountains<br/>
+🎯 Actual dream type: Good<br/>
+🤖 AI classification for 'Flying over mountains' is: Good<br/>
+📝 Row columns data:<br/>
+   Column 1: Winning lottery<br/>
+   Column 2: 4 days ago<br/>
+   Column 3: Good<br/>
+🔍 Validating dream: Winning lottery<br/>
+🎯 Actual dream type: Good<br/>
+🤖 AI classification for 'Winning lottery' is: Good<br/>
+📝 Row columns data:<br/>
+   Column 1: Being late to exam<br/>
+   Column 2: 5 days ago<br/>
+   Column 3: Bad<br/>
+🔍 Validating dream: Being late to exam<br/>
+🎯 Actual dream type: Bad<br/>
+🤖 AI classification for 'Being late to exam' is: Bad<br/>
+📝 Row columns data:<br/>
+   Column 1: Lost in maze<br/>
+   Column 2: 6 days ago<br/>
+   Column 3: Bad<br/>
+🔍 Validating dream: Lost in maze<br/>
+🎯 Actual dream type: Bad<br/>
+🤖 AI classification for 'Lost in maze' is: Bad<br/>
+📝 Row columns data:<br/>
+   Column 1: Swimming with dolphins<br/>
+   Column 2: 7 days ago<br/>
+   Column 3: Good<br/>
+🔍 Validating dream: Swimming with dolphins<br/>
+🎯 Actual dream type: Good<br/>
+🤖 AI classification for 'Swimming with dolphins' is: Good<br/>
+📝 Row columns data:<br/>
+   Column 1: Flying over mountains<br/>
+   Column 2: 8 days ago<br/>
+   Column 3: Good<br/>
+🔍 Validating dream: Flying over mountains<br/>
+🎯 Actual dream type: Good<br/>
+🤖 AI classification for 'Flying over mountains' is: Good<br/>
+📝 Row columns data:<br/>
+   Column 1: Time travel adventure<br/>
+   Column 2: 9 days ago<br/>
+   Column 3: Good<br/>
+🔍 Validating dream: Time travel adventure<br/>
+🎯 Actual dream type: Good<br/>
+🤖 AI classification for 'Time travel adventure' is: Good<br/>
+📝 Row columns data:<br/>
+   Column 1: Monster chase<br/>
+   Column 2: 10 days ago<br/>
+   Column 3: Bad<br/>
+🔍 Validating dream: Monster chase<br/>
+🎯 Actual dream type: Bad<br/>
+🤖 AI classification for 'Monster chase' is: Bad<br/>
+✅ All dreams were successfully classified by AI and matched actual types<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>Tests.AI_BASED_VALIDATION_TEST@70325e14</td></tr>
+<tr>
+<td title='Tests.DreamsTotalTest.verifyGoodDreamsCount()'><b>verifyGoodDreamsCount</b><br>Test class: Tests.DreamsTotalTest<br/>
+<a href="#Output-2004683715" onClick='toggleBox("Output-2004683715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2004683715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2004683715">
+🟩 Good dreams count: 6<br/>
+✅ Verified Good dreams count is 6<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>Tests.DreamsTotalTest@7c9d8e2</td></tr>
+</table><p>
+</body>
+</html>

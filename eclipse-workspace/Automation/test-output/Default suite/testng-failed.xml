@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.DreamsTotalTest">
+        <methods>
+          <include name="verifyBadDreamsCount"/>
+          <include name="verifyGoodDreamsCount"/>
+          <include name="tearDown"/>
+          <include name="verifyTotalDreamsCount"/>
+          <include name="copyEmailableReportToDownloads"/>
+          <include name="setup"/>
+          <include name="verifyRecurringDreamsAreCorrect"/>
+          <include name="verifyRecurringDreamsCount"/>
+          <include name="openDreamsTotalPage"/>
+        </methods>
+      </class> <!-- Tests.DreamsTotalTest -->
+      <class name="Tests.AI_BASED_VALIDATION_TEST">
+        <methods>
+          <include name="classifyDreamNamesFromUI"/>
+          <include name="tearDown"/>
+          <include name="copyEmailableReportToDownloads"/>
+          <include name="setup"/>
+          <include name="navigateToDreamsDiaryPage"/>
+        </methods>
+      </class> <!-- Tests.AI_BASED_VALIDATION_TEST -->
+      <class name="Tests.DreamsDairyTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="copyEmailableReportToDownloads"/>
+          <include name="openDreamsDiaryTab"/>
+          <include name="testAllColumnsAreFilled"/>
+          <include name="testDreamTypesAreValid"/>
+          <include name="testNumberOfDreamEntries"/>
+        </methods>
+      </class> <!-- Tests.DreamsDairyTest -->
+      <class name="Tests.HomePageTest">
+        <methods>
+          <include name="closeExtraTabs"/>
+          <include name="verifyMyDreamsButtonOpensNewTabs"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="copyEmailableReportToDownloads"/>
+          <include name="verifyMainContentVisible"/>
+          <include name="verifyLoadingAnimationBehavior"/>
+          <include name="openHomePage"/>
+          <include name="initPageObject"/>
+        </methods>
+      </class> <!-- Tests.HomePageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

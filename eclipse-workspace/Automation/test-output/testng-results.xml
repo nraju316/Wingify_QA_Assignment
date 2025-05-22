@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[🌐 Opened homepage: https://arjitnigam.github.io/myDreams/]]>
+    </line>
+    <line>
+      <![CDATA[🔄 Loading animation initially visible: true]]>
+    </line>
+    <line>
+      <![CDATA[⏱ Loading animation disappeared: true (Waited ~3239 ms)]]>
+    </line>
+    <line>
+      <![CDATA[📄 Main content visible after loader: true]]>
+    </line>
+    <line>
+      <![CDATA[🌐 Opened homepage: https://arjitnigam.github.io/myDreams/]]>
+    </line>
+    <line>
+      <![CDATA[⌛ Waiting for 'My Dreams' button to be visible...]]>
+    </line>
+    <line>
+      <![CDATA[📄 Main content visible after waiting: true]]>
+    </line>
+    <line>
+      <![CDATA[🌐 Opened homepage: https://arjitnigam.github.io/myDreams/]]>
+    </line>
+    <line>
+      <![CDATA[🖱️ Clicked on 'My Dreams' button]]>
+    </line>
+    <line>
+      <![CDATA[🧭 Switched to tab with URL: https://arjitnigam.github.io/myDreams/dreams-total.html]]>
+    </line>
+    <line>
+      <![CDATA[🧭 Switched to tab with URL: https://arjitnigam.github.io/myDreams/dreams-diary.html]]>
+    </line>
+    <line>
+      <![CDATA[↩️ Switched back to original tab]]>
+    </line>
+    <line>
+      <![CDATA[✅ dreams-diary.html opened: true]]>
+    </line>
+    <line>
+      <![CDATA[✅ dreams-total.html opened: true]]>
+    </line>
+    <line>
+      <![CDATA[✅ Clicked on 'My Dreams' button]]>
+    </line>
+    <line>
+      <![CDATA[✅ Switched to dreams-diary.html]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Flying over mountains]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 1 day ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Good]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Flying over mountains]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Good]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Flying over mountains' is: Good]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Lost in maze]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 2 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Bad]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Lost in maze]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Bad]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Lost in maze' is: Bad]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Flying over mountains]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 3 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Good]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Flying over mountains]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Good]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Flying over mountains' is: Good]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Winning lottery]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 4 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Good]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Winning lottery]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Good]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Winning lottery' is: Good]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Being late to exam]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 5 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Bad]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Being late to exam]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Bad]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Being late to exam' is: Bad]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Lost in maze]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 6 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Bad]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Lost in maze]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Bad]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Lost in maze' is: Bad]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Swimming with dolphins]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 7 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Good]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Swimming with dolphins]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Good]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Swimming with dolphins' is: Good]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Flying over mountains]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 8 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Good]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Flying over mountains]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Good]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Flying over mountains' is: Good]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Time travel adventure]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 9 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Good]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Time travel adventure]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Good]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Time travel adventure' is: Good]]>
+    </line>
+    <line>
+      <![CDATA[📝 Row columns data:]]>
+    </line>
+    <line>
+      <![CDATA[   Column 1: Monster chase]]>
+    </line>
+    <line>
+      <![CDATA[   Column 2: 10 days ago]]>
+    </line>
+    <line>
+      <![CDATA[   Column 3: Bad]]>
+    </line>
+    <line>
+      <![CDATA[🔍 Validating dream: Monster chase]]>
+    </line>
+    <line>
+      <![CDATA[🎯 Actual dream type: Bad]]>
+    </line>
+    <line>
+      <![CDATA[🤖 AI classification for 'Monster chase' is: Bad]]>
+    </line>
+    <line>
+      <![CDATA[✅ All dreams were successfully classified by AI and matched actual types]]>
+    </line>
+    <line>
+      <![CDATA[✅ All rows have Name, Days Ago, and Type columns filled: true]]>
+    </line>
+    <line>
+      <![CDATA[✅ All dream types are either 'Good' or 'Bad': true]]>
+    </line>
+    <line>
+      <![CDATA[✅ Total dream entries found: 10]]>
+    </line>
+    <line>
+      <![CDATA[✅ Clicked on 'My Dreams' button]]>
+    </line>
+    <line>
+      <![CDATA[🔁 Switched to tab with URL: https://arjitnigam.github.io/myDreams/]]>
+    </line>
+    <line>
+      <![CDATA[🔁 Switched to tab with URL: https://arjitnigam.github.io/myDreams/dreams-total.html]]>
+    </line>
+    <line>
+      <![CDATA[✅ Switched to dreams-total.html]]>
+    </line>
+    <line>
+      <![CDATA[🟩 Good dreams count: 6]]>
+    </line>
+    <line>
+      <![CDATA[✅ Verified Good dreams count is 6]]>
+    </line>
+    <line>
+      <![CDATA[🟥 Bad dreams count: 4]]>
+    </line>
+    <line>
+      <![CDATA[✅ Verified Bad dreams count is 4]]>
+    </line>
+    <line>
+      <![CDATA[📊 Total dreams count: 10]]>
+    </line>
+    <line>
+      <![CDATA[✅ Verified Total dreams count is 10]]>
+    </line>
+    <line>
+      <![CDATA[🔁 Recurring dreams count: 2]]>
+    </line>
+    <line>
+      <![CDATA[✅ Verified Recurring dreams count is 2]]>
+    </line>
+    <line>
+      <![CDATA[✅ Switched to dreams-diary.html]]>
+    </line>
+    <line>
+      <![CDATA[📃 Dream name frequency map: {Winning lottery=1, Being late to exam=1, Monster chase=1, Flying over mountains=3, Time travel adventure=1, Lost in maze=2, Swimming with dolphins=1}]]>
+    </line>
+    <line>
+      <![CDATA[🔁 Recurring dreams detected: [Flying over mountains, Lost in maze]]]>
+    </line>
+    <line>
+      <![CDATA[✅ Verified recurring dreams: [Flying over mountains, Lost in maze]]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-05-22T05:02:16 IST" name="Default suite" finished-at="2025-05-22T05:02:58 IST" duration-ms="41741">
+    <groups>
+    </groups>
+    <test started-at="2025-05-22T05:02:16 IST" name="Default test" finished-at="2025-05-22T05:02:58 IST" duration-ms="41741">
+      <class name="Tests.HomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:16 IST" name="setup" finished-at="2025-05-22T05:02:18 IST" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="initPageObject()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:18 IST" name="initPageObject" finished-at="2025-05-22T05:02:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObject -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:19 IST" name="openHomePage" finished-at="2025-05-22T05:02:19 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🌐 Opened homepage: https://arjitnigam.github.io/myDreams/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="verifyLoadingAnimationBehavior()[pri:1, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:19 IST" name="verifyLoadingAnimationBehavior" finished-at="2025-05-22T05:02:22 IST" duration-ms="3335" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🔄 Loading animation initially visible: true]]>
+            </line>
+            <line>
+              <![CDATA[⏱ Loading animation disappeared: true (Waited ~3239 ms)]]>
+            </line>
+            <line>
+              <![CDATA[📄 Main content visible after loader: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoadingAnimationBehavior -->
+        <test-method is-config="true" signature="closeExtraTabs()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:22 IST" name="closeExtraTabs" finished-at="2025-05-22T05:02:22 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtraTabs -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:22 IST" name="openHomePage" finished-at="2025-05-22T05:02:22 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🌐 Opened homepage: https://arjitnigam.github.io/myDreams/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="verifyMainContentVisible()[pri:2, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:22 IST" name="verifyMainContentVisible" finished-at="2025-05-22T05:02:25 IST" duration-ms="3284" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[⌛ Waiting for 'My Dreams' button to be visible...]]>
+            </line>
+            <line>
+              <![CDATA[📄 Main content visible after waiting: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMainContentVisible -->
+        <test-method is-config="true" signature="closeExtraTabs()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:25 IST" name="closeExtraTabs" finished-at="2025-05-22T05:02:25 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtraTabs -->
+        <test-method is-config="true" signature="openHomePage()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:25 IST" name="openHomePage" finished-at="2025-05-22T05:02:25 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🌐 Opened homepage: https://arjitnigam.github.io/myDreams/]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openHomePage -->
+        <test-method signature="verifyMyDreamsButtonOpensNewTabs()[pri:3, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:25 IST" name="verifyMyDreamsButtonOpensNewTabs" finished-at="2025-05-22T05:02:29 IST" duration-ms="3668" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🖱️ Clicked on 'My Dreams' button]]>
+            </line>
+            <line>
+              <![CDATA[🧭 Switched to tab with URL: https://arjitnigam.github.io/myDreams/dreams-total.html]]>
+            </line>
+            <line>
+              <![CDATA[🧭 Switched to tab with URL: https://arjitnigam.github.io/myDreams/dreams-diary.html]]>
+            </line>
+            <line>
+              <![CDATA[↩️ Switched back to original tab]]>
+            </line>
+            <line>
+              <![CDATA[✅ dreams-diary.html opened: true]]>
+            </line>
+            <line>
+              <![CDATA[✅ dreams-total.html opened: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMyDreamsButtonOpensNewTabs -->
+        <test-method is-config="true" signature="closeExtraTabs()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:29 IST" name="closeExtraTabs" finished-at="2025-05-22T05:02:29 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtraTabs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:29 IST" name="tearDown" finished-at="2025-05-22T05:02:30 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="copyEmailableReportToDownloads()[pri:0, instance:Tests.HomePageTest@7bedc48a]" started-at="2025-05-22T05:02:58 IST" name="copyEmailableReportToDownloads" finished-at="2025-05-22T05:02:58 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- copyEmailableReportToDownloads -->
+      </class> <!-- Tests.HomePageTest -->
+      <class name="Tests.AI_BASED_VALIDATION_TEST">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.AI_BASED_VALIDATION_TEST@70325e14]" started-at="2025-05-22T05:02:30 IST" name="setup" finished-at="2025-05-22T05:02:31 IST" duration-ms="1008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="navigateToDreamsDiaryPage()[pri:0, instance:Tests.AI_BASED_VALIDATION_TEST@70325e14]" started-at="2025-05-22T05:02:31 IST" name="navigateToDreamsDiaryPage" finished-at="2025-05-22T05:02:34 IST" duration-ms="3608" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[✅ Clicked on 'My Dreams' button]]>
+            </line>
+            <line>
+              <![CDATA[✅ Switched to dreams-diary.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToDreamsDiaryPage -->
+        <test-method signature="classifyDreamNamesFromUI()[pri:0, instance:Tests.AI_BASED_VALIDATION_TEST@70325e14]" started-at="2025-05-22T05:02:34 IST" name="classifyDreamNamesFromUI" finished-at="2025-05-22T05:02:46 IST" duration-ms="11383" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Flying over mountains]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 1 day ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Good]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Flying over mountains]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Good]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Flying over mountains' is: Good]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Lost in maze]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 2 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Bad]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Lost in maze]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Bad]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Lost in maze' is: Bad]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Flying over mountains]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 3 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Good]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Flying over mountains]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Good]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Flying over mountains' is: Good]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Winning lottery]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 4 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Good]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Winning lottery]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Good]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Winning lottery' is: Good]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Being late to exam]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 5 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Bad]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Being late to exam]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Bad]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Being late to exam' is: Bad]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Lost in maze]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 6 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Bad]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Lost in maze]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Bad]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Lost in maze' is: Bad]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Swimming with dolphins]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 7 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Good]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Swimming with dolphins]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Good]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Swimming with dolphins' is: Good]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Flying over mountains]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 8 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Good]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Flying over mountains]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Good]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Flying over mountains' is: Good]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Time travel adventure]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 9 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Good]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Time travel adventure]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Good]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Time travel adventure' is: Good]]>
+            </line>
+            <line>
+              <![CDATA[📝 Row columns data:]]>
+            </line>
+            <line>
+              <![CDATA[   Column 1: Monster chase]]>
+            </line>
+            <line>
+              <![CDATA[   Column 2: 10 days ago]]>
+            </line>
+            <line>
+              <![CDATA[   Column 3: Bad]]>
+            </line>
+            <line>
+              <![CDATA[🔍 Validating dream: Monster chase]]>
+            </line>
+            <line>
+              <![CDATA[🎯 Actual dream type: Bad]]>
+            </line>
+            <line>
+              <![CDATA[🤖 AI classification for 'Monster chase' is: Bad]]>
+            </line>
+            <line>
+              <![CDATA[✅ All dreams were successfully classified by AI and matched actual types]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- classifyDreamNamesFromUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.AI_BASED_VALIDATION_TEST@70325e14]" started-at="2025-05-22T05:02:46 IST" name="tearDown" finished-at="2025-05-22T05:02:46 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AI_BASED_VALIDATION_TEST -->
+      <class name="Tests.DreamsDairyTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DreamsDairyTest@37ceb1df]" started-at="2025-05-22T05:02:46 IST" name="setup" finished-at="2025-05-22T05:02:47 IST" duration-ms="1420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openDreamsDiaryTab()[pri:0, instance:Tests.DreamsDairyTest@37ceb1df]" started-at="2025-05-22T05:02:47 IST" name="openDreamsDiaryTab" finished-at="2025-05-22T05:02:51 IST" duration-ms="3619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDreamsDiaryTab -->
+        <test-method signature="testAllColumnsAreFilled()[pri:0, instance:Tests.DreamsDairyTest@37ceb1df]" started-at="2025-05-22T05:02:51 IST" name="testAllColumnsAreFilled" finished-at="2025-05-22T05:02:51 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[✅ All rows have Name, Days Ago, and Type columns filled: true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAllColumnsAreFilled -->
+        <test-method signature="testDreamTypesAreValid()[pri:0, instance:Tests.DreamsDairyTest@37ceb1df]" started-at="2025-05-22T05:02:51 IST" name="testDreamTypesAreValid" finished-at="2025-05-22T05:02:52 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[✅ All dream types are either 'Good' or 'Bad': true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDreamTypesAreValid -->
+        <test-method signature="testNumberOfDreamEntries()[pri:0, instance:Tests.DreamsDairyTest@37ceb1df]" started-at="2025-05-22T05:02:52 IST" name="testNumberOfDreamEntries" finished-at="2025-05-22T05:02:52 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[✅ Total dream entries found: 10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testNumberOfDreamEntries -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.DreamsDairyTest@37ceb1df]" started-at="2025-05-22T05:02:52 IST" name="tearDown" finished-at="2025-05-22T05:02:52 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.DreamsDairyTest -->
+      <class name="Tests.DreamsTotalTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Tests.DreamsTotalTest@7c9d8e2]" started-at="2025-05-22T05:02:52 IST" name="setup" finished-at="2025-05-22T05:02:53 IST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="openDreamsTotalPage()[pri:0, instance:Tests.DreamsTotalTest@7c9d8e2]" started-at="2025-05-22T05:02:53 IST" name="openDreamsTotalPage" finished-at="2025-05-22T05:02:57 IST" duration-ms="3799" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[✅ Clicked on 'My Dreams' button]]>
+            </line>
+            <line>
+              <![CDATA[🔁 Switched to tab with URL: https://arjitnigam.github.io/myDreams/]]>
+            </line>
+            <line>
+              <![CDATA[🔁 Switched to tab with URL: https://arjitnigam.github.io/myDreams/dreams-total.html]]>
+            </line>
+            <line>
+              <![CDATA[✅ Switched to dreams-total.html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openDreamsTotalPage -->
+        <test-method signature="verifyGoodDreamsCount()[pri:1, instance:Tests.DreamsTotalTest@7c9d8e2]" started-at="2025-05-22T05:02:57 IST" name="verifyGoodDreamsCount" finished-at="2025-05-22T05:02:57 IST" duration-ms="51" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟩 Good dreams count: 6]]>
+            </line>
+            <line>
+              <![CDATA[✅ Verified Good dreams count is 6]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGoodDreamsCount -->
+        <test-method signature="verifyBadDreamsCount()[pri:2, instance:Tests.DreamsTotalTest@7c9d8e2]" started-at="2025-05-22T05:02:57 IST" name="verifyBadDreamsCount" finished-at="2025-05-22T05:02:57 IST" duration-ms="63" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🟥 Bad dreams count: 4]]>
+            </line>
+            <line>
+              <![CDATA[✅ Verified Bad dreams count is 4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyBadDreamsCount -->
+        <test-method signature="verifyTotalDreamsCount()[pri:3, instance:Tests.DreamsTotalTest@7c9d8e2]" started-at="2025-05-22T05:02:57 IST" name="verifyTotalDreamsCount" finished-at="2025-05-22T05:02:57 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[📊 Total dreams count: 10]]>
+            </line>
+            <line>
+              <![CDATA[✅ Verified Total dreams count is 10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTotalDreamsCount -->
+        <test-method signature="verifyRecurringDreamsCount()[pri:4, instance:Tests.DreamsTotalTest@7c9d8e2]" started-at="2025-05-22T05:02:57 IST" name="verifyRecurringDreamsCount" finished-at="2025-05-22T05:02:57 IST" duration-ms="90" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[🔁 Recurring dreams count: 2]]>
+            </line>
+            <line>
+              <![CDATA[✅ Verified Recurring dreams count is 2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRecurringDreamsCount -->
+        <test-method signature="verifyRecurringDreamsAreCorrect()[pri:5, instance:Tests.DreamsTotalTest@7c9d8e2]" started-at="2025-05-22T05:02:57 IST" name="verifyRecurringDreamsAreCorrect" finished-at="2025-05-22T05:02:57 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[✅ Switched to dreams-diary.html]]>
+            </line>
+            <line>
+              <![CDATA[📃 Dream name frequency map: {Winning lottery=1, Being late to exam=1, Monster chase=1, Flying over mountains=3, Time travel adventure=1, Lost in maze=2, Swimming with dolphins=1}]]>
+            </line>
+            <line>
+              <![CDATA[🔁 Recurring dreams detected: [Flying over mountains, Lost in maze]]]>
+            </line>
+            <line>
+              <![CDATA[✅ Verified recurring dreams: [Flying over mountains, Lost in maze]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRecurringDreamsAreCorrect -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.DreamsTotalTest@7c9d8e2]" started-at="2025-05-22T05:02:57 IST" name="tearDown" finished-at="2025-05-22T05:02:58 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.DreamsTotalTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
