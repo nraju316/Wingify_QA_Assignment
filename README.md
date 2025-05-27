@@ -165,6 +165,7 @@ Run the Tests
 * Centralized WebDriver configuration
 * Clear console logs & exception handling
 * Time-stamped report naming to avoid overwriting
+* Used OOPs concepts for better code structure
 
 ## 👤 Author
 
